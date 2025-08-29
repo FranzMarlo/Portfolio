@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
+
+  @keyframes scroll-x {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .animate-scroll-x {
+    animation: scroll-x 25s linear infinite;
+  }
+  /* Pause the marquee on hover */
+  .pause-on-hover:hover .animate-scroll-x {
+    animation-play-state: paused;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
