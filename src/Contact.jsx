@@ -63,7 +63,7 @@ export default function Contact() {
 
             <span className="hidden group-hover:inline">Franz Marlo Andal</span>
             <svg
-              className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800 dark:text-white"
+              className="w-5 h-5 sm:w-6 sm:h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -90,7 +90,7 @@ export default function Contact() {
 
             <span className="hidden group-hover:inline">FranzMarlo</span>
             <svg
-              className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800 dark:text-white"
+              className="w-5 h-5 sm:w-6 sm:h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -118,7 +118,7 @@ export default function Contact() {
               andalfranzb@gmail.com
             </span>
             <svg
-              className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800 dark:text-white"
+              className="w-5 h-5 sm:w-6 sm:h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -144,7 +144,7 @@ export default function Contact() {
 
             <span className="hidden group-hover:inline">Download Resume</span>
             <svg
-              className="w-5 h-5 sm:w-6 sm:h-6 text-gray-800 dark:text-white"
+              className="w-5 h-5 sm:w-6 sm:h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"

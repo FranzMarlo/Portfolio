@@ -54,7 +54,7 @@ export default function Nav() {
             className="hover:text-gray-400 flex items-center  w-full max-w-xs mx-auto gap-5"
           >
             <svg
-              className="w-6 h-6 text-gray-800 dark:text-white"
+              className="w-6 h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -78,7 +78,7 @@ export default function Nav() {
             className="hover:text-gray-400 flex items-center  w-full max-w-xs mx-auto gap-5 "
           >
             <svg
-              className="w-6 h-6 text-gray-800 dark:text-white"
+              className="w-6 h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -101,7 +101,7 @@ export default function Nav() {
             className="hover:text-gray-400 flex items-center  w-full max-w-xs mx-auto gap-5"
           >
             <svg
-              className="w-6 h-6 text-gray-800 dark:text-white"
+              className="w-6 h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -123,7 +123,7 @@ export default function Nav() {
             className="hover:text-gray-400 flex items-center  w-full max-w-xs mx-auto gap-5"
           >
             <svg
-              className="w-6 h-6 text-gray-800 dark:text-white"
+              className="w-6 h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -147,7 +147,7 @@ export default function Nav() {
             className="hover:text-gray-400 flex items-center  w-full max-w-xs mx-auto gap-5"
           >
             <svg
-              className="w-6 h-6 text-gray-800 dark:text-white"
+              className="w-6 h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -171,7 +171,7 @@ export default function Nav() {
             className="hover:text-gray-400 flex items-center  w-full max-w-xs mx-auto gap-5"
           >
             <svg
-              className="w-6 h-6 text-gray-800 dark:text-white"
+              className="w-6 h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -195,7 +195,7 @@ export default function Nav() {
             className="hover:text-gray-400 flex items-center  w-full max-w-xs mx-auto gap-5"
           >
             <svg
-              className="w-6 h-6 text-gray-800 dark:text-white"
+              className="w-6 h-6 text-white"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -221,7 +221,7 @@ export default function Nav() {
       >
         <a href="#Home" className="flex flex-col items-center gap-1">
           <svg
-            className="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -248,7 +248,7 @@ export default function Nav() {
           className="flex flex-col items-center gap-1"
         >
           <svg
-            className="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -272,7 +272,7 @@ export default function Nav() {
           className="flex flex-col items-center gap-1"
         >
           <svg
-            className="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -294,7 +294,7 @@ export default function Nav() {
 
         <a href="#Projects" className="flex flex-col items-center gap-1">
           <svg
-            className="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -314,7 +314,7 @@ export default function Nav() {
         </a>
         <a href="#About" className="flex flex-col items-center gap-1">
           <svg
-            className="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -336,7 +336,7 @@ export default function Nav() {
         <div className="border-l border-gray-200 h-6 self-center"></div>
         <a href="#Experience" className="flex flex-col items-center gap-1">
           <svg
-            className="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -357,7 +357,7 @@ export default function Nav() {
         </a>
         <a href="#Contact" className="flex flex-col items-center gap-1">
           <svg
-            className="w-6 h-6 text-gray-800 dark:text-white"
+            className="w-6 h-6 text-white"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
