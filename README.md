@@ -1,4 +1,4 @@
-# 🌐 Franz Marlo's Portfolio
+# 🌐 My Portfolio Website
 
 A personal portfolio website built with **React + Vite**, styled with **Tailwind CSS**, and deployed on **Vercel**.  
 It showcases my projects, skills, and background as a **QA Tester & Web Developer**.
