@@ -1,5 +1,6 @@
 import SCES from "./assets/sces.png";
 import FlutterQuiz from "./assets/flutterquiz.jpg";
+import Endgame from "./assets/endgame.jpg";
 import { motion as Motion } from "framer-motion";
 export default function Projects() {
   const projects = [
@@ -15,6 +16,13 @@ export default function Projects() {
       description: "A simple IT application project developed with Flutter.",
       link: "https://github.com/FranzMarlo/Flutter-Quiz-App",
       image: FlutterQuiz,
+    },
+    {
+      title: "Assembly: Endgame",
+      description:
+        "A simple web game developed with React and deployed using Github.",
+      link: "https://github.com/FranzMarlo/Assembly-End-Game",
+      image: Endgame,
     },
   ];
 
