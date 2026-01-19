@@ -1,6 +1,7 @@
 import SCES from "./assets/sces.png";
 import FlutterQuiz from "./assets/flutterquiz.jpg";
 import Endgame from "./assets/endgame.jpg";
+import HungryPaws from "./assets/hungrypaws.png";
 import { motion as Motion } from "framer-motion";
 export default function Projects() {
   const projects = [
@@ -24,6 +25,13 @@ export default function Projects() {
       link: "https://github.com/FranzMarlo/Assembly-End-Game",
       image: Endgame,
     },
+    {
+      title: "Hungry Paws SIMIS",
+      description:
+        "A web-based PHP application which features Sales and Inventory Management Information System (SIMIS).",
+      link: "https://github.com/FranzMarlo/HungryPawsSIMIS",
+      image: HungryPaws,
+    },
   ];
 
   return (
@@ -46,12 +54,12 @@ export default function Projects() {
         {projects.map((project, index) => (
           <Motion.div
             key={index}
-            initial={{ opacity: 0, x: -40 }} // start left & invisible
-            whileInView={{ opacity: 1, x: 0 }} // move to place when in view
-            viewport={{ amount: 0.25 }} // trigger when 25% visible, only once
+            initial={{ opacity: 0, x: -40 }}
+            whileInView={{ opacity: 1, x: 0 }} 
+            viewport={{ amount: 0.25 }}
             transition={{
-              duration: 0.6, // how long each animation takes
-              delay: index * 0.12, // stagger left->right by index
+              duration: 0.6,
+              delay: index * 0.12,
               ease: "easeOut",
             }}
             className="bg-neutral-950 border border-gray-800 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-transform"
