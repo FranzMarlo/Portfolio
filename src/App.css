@@ -1,30 +1,110 @@
 @import "tailwindcss";
 
-@layer utilities {
-  .font-poppins {
-    font-family: "Poppins", sans-serif;
-  }
-
-  .font-roboto {
-    font-family: "Roboto", sans-serif;
-  }
-
-  @keyframes scroll-x {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-50%);
-    }
-  }
-  .animate-scroll-x {
-    animation: scroll-x 25s linear infinite;
-  }
-  /* Pause the marquee on hover */
-  .pause-on-hover:hover .animate-scroll-x {
-    animation-play-state: paused;
-  }
+:root {
+  color-scheme: dark;
+  font-family: "Manrope", sans-serif;
+  color: #e8e7e3;
+  background: #0a0a0a;
+  font-synthesis: none;
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #0a0a0a;
+}
+::selection {
+  color: #0a0a0a;
+  background: #d8ff69;
+}
+.site-shell {
+  width: min(1120px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+.section {
+  padding-block: clamp(4.5rem, 9vw, 8rem);
+}
+.eyebrow {
+  color: #d8ff69;
+  font:
+    700 0.72rem/1 "IBM Plex Mono",
+    monospace;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.section-title {
+  margin-top: 0.8rem;
+  max-width: 760px;
+  color: #f4f3ef;
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+}
+.muted {
+  color: #9d9c97;
+}
+.card {
+  border: 1px solid #292927;
+  background: #111110;
+  border-radius: 1.25rem;
+}
+.tag {
+  display: inline-flex;
+  padding: 0.42rem 0.68rem;
+  border: 1px solid #343431;
+  border-radius: 999px;
+  color: #bbb9b2;
+  font:
+    500 0.72rem/1 "IBM Plex Mono",
+    monospace;
+}
+.button-primary,
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 3rem;
+  padding: 0.75rem 1.1rem;
+  border-radius: 0.7rem;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
+.button-primary {
+  color: #0a0a0a;
+  background: #d8ff69;
+}
+.button-primary:hover {
+  background: #e4ff98;
+  transform: translateY(-2px);
+}
+.button-secondary {
+  color: #e8e7e3;
+  border: 1px solid #393936;
+  background: #121211;
+}
+.button-secondary:hover {
+  border-color: #77766f;
+  transform: translateY(-2px);
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #d8ff69;
+  outline-offset: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
